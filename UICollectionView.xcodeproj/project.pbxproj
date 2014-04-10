@@ -14,7 +14,7 @@
 		6FE97B7C18F6CB5500AE0E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE97B7B18F6CB5500AE0E98 /* main.m */; };
 		6FE97B8018F6CB5500AE0E98 /* ITDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE97B7F18F6CB5500AE0E98 /* ITDAppDelegate.m */; };
 		6FE97B8318F6CB5500AE0E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE97B8118F6CB5500AE0E98 /* Main.storyboard */; };
-		6FE97B8618F6CB5500AE0E98 /* ITDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE97B8518F6CB5500AE0E98 /* ITDViewController.m */; };
+		6FE97B8618F6CB5500AE0E98 /* ITDHomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE97B8518F6CB5500AE0E98 /* ITDHomeCollectionViewController.m */; };
 		6FE97B8818F6CB5500AE0E98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE97B8718F6CB5500AE0E98 /* Images.xcassets */; };
 		6FE97B8F18F6CB5500AE0E98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE97B8E18F6CB5500AE0E98 /* XCTest.framework */; };
 		6FE97B9018F6CB5500AE0E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE97B6F18F6CB5500AE0E98 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		6FE97B7E18F6CB5500AE0E98 /* ITDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITDAppDelegate.h; sourceTree = "<group>"; };
 		6FE97B7F18F6CB5500AE0E98 /* ITDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITDAppDelegate.m; sourceTree = "<group>"; };
 		6FE97B8218F6CB5500AE0E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6FE97B8418F6CB5500AE0E98 /* ITDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITDViewController.h; sourceTree = "<group>"; };
-		6FE97B8518F6CB5500AE0E98 /* ITDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITDViewController.m; sourceTree = "<group>"; };
+		6FE97B8418F6CB5500AE0E98 /* ITDHomeCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITDHomeCollectionViewController.h; sourceTree = "<group>"; };
+		6FE97B8518F6CB5500AE0E98 /* ITDHomeCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITDHomeCollectionViewController.m; sourceTree = "<group>"; };
 		6FE97B8718F6CB5500AE0E98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FE97B8D18F6CB5500AE0E98 /* UICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE97B8E18F6CB5500AE0E98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				6FE97B7E18F6CB5500AE0E98 /* ITDAppDelegate.h */,
 				6FE97B7F18F6CB5500AE0E98 /* ITDAppDelegate.m */,
 				6FE97B8118F6CB5500AE0E98 /* Main.storyboard */,
-				6FE97B8418F6CB5500AE0E98 /* ITDViewController.h */,
-				6FE97B8518F6CB5500AE0E98 /* ITDViewController.m */,
+				6FE97B8418F6CB5500AE0E98 /* ITDHomeCollectionViewController.h */,
+				6FE97B8518F6CB5500AE0E98 /* ITDHomeCollectionViewController.m */,
 				6FE97B8718F6CB5500AE0E98 /* Images.xcassets */,
 				6FE97B7618F6CB5500AE0E98 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FE97B8018F6CB5500AE0E98 /* ITDAppDelegate.m in Sources */,
-				6FE97B8618F6CB5500AE0E98 /* ITDViewController.m in Sources */,
+				6FE97B8618F6CB5500AE0E98 /* ITDHomeCollectionViewController.m in Sources */,
 				6FE97B7C18F6CB5500AE0E98 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
