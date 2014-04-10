@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ITDBasicCollectionViewCell.h"
+#import "ITDSettingsPopupTableViewController.h"
 
 @interface ITDHomeCollectionViewController : UICollectionViewController
 
+@property  (nonatomic, weak) IBOutlet UIBarButtonItem *btnSettings;
+
+-(IBAction)btnSettings_Click:(id)sender;
 @end

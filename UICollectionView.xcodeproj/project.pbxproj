@@ -21,6 +21,8 @@
 		6FE97B9118F6CB5500AE0E98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE97B7318F6CB5500AE0E98 /* UIKit.framework */; };
 		6FE97B9918F6CB5500AE0E98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FE97B9718F6CB5500AE0E98 /* InfoPlist.strings */; };
 		6FE97B9B18F6CB5500AE0E98 /* UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE97B9A18F6CB5500AE0E98 /* UICollectionViewTests.m */; };
+		6FE97BA818F6D00300AE0E98 /* ITDBasicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE97BA718F6D00300AE0E98 /* ITDBasicCollectionViewCell.m */; };
+		6FE97BAB18F7035500AE0E98 /* ITDSettingsPopupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE97BAA18F7035500AE0E98 /* ITDSettingsPopupTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6FE97B9618F6CB5500AE0E98 /* UICollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UICollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		6FE97B9818F6CB5500AE0E98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FE97B9A18F6CB5500AE0E98 /* UICollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewTests.m; sourceTree = "<group>"; };
+		6FE97BA618F6D00300AE0E98 /* ITDBasicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITDBasicCollectionViewCell.h; sourceTree = "<group>"; };
+		6FE97BA718F6D00300AE0E98 /* ITDBasicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITDBasicCollectionViewCell.m; sourceTree = "<group>"; };
+		6FE97BA918F7035500AE0E98 /* ITDSettingsPopupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITDSettingsPopupTableViewController.h; sourceTree = "<group>"; };
+		6FE97BAA18F7035500AE0E98 /* ITDSettingsPopupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITDSettingsPopupTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +118,15 @@
 		6FE97B7518F6CB5500AE0E98 /* UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				6FE97BA518F6CF6600AE0E98 /* Views */,
 				6FE97B7E18F6CB5500AE0E98 /* ITDAppDelegate.h */,
 				6FE97B7F18F6CB5500AE0E98 /* ITDAppDelegate.m */,
 				6FE97B8118F6CB5500AE0E98 /* Main.storyboard */,
 				6FE97B8418F6CB5500AE0E98 /* ITDHomeCollectionViewController.h */,
 				6FE97B8518F6CB5500AE0E98 /* ITDHomeCollectionViewController.m */,
 				6FE97B8718F6CB5500AE0E98 /* Images.xcassets */,
+				6FE97BA918F7035500AE0E98 /* ITDSettingsPopupTableViewController.h */,
+				6FE97BAA18F7035500AE0E98 /* ITDSettingsPopupTableViewController.m */,
 				6FE97B7618F6CB5500AE0E98 /* Supporting Files */,
 			);
 			path = UICollectionView;
@@ -150,6 +159,15 @@
 				6FE97B9718F6CB5500AE0E98 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FE97BA518F6CF6600AE0E98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FE97BA618F6D00300AE0E98 /* ITDBasicCollectionViewCell.h */,
+				6FE97BA718F6D00300AE0E98 /* ITDBasicCollectionViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FE97B8018F6CB5500AE0E98 /* ITDAppDelegate.m in Sources */,
+				6FE97BA818F6D00300AE0E98 /* ITDBasicCollectionViewCell.m in Sources */,
+				6FE97BAB18F7035500AE0E98 /* ITDSettingsPopupTableViewController.m in Sources */,
 				6FE97B8618F6CB5500AE0E98 /* ITDHomeCollectionViewController.m in Sources */,
 				6FE97B7C18F6CB5500AE0E98 /* main.m in Sources */,
 			);
@@ -459,6 +479,7 @@
 				6FE97BA018F6CB5500AE0E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE97BA118F6CB5500AE0E98 /* Build configuration list for PBXNativeTarget "UICollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +488,7 @@
 				6FE97BA318F6CB5500AE0E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
